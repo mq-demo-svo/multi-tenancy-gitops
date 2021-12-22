@@ -16,6 +16,14 @@ resources:
 #- argocd/operators/ibm-opsdashboard-operator.yaml
 #- argocd/operators/ibm-platform-navigator.yaml
 #- argocd/instances/ibm-platform-navigator-instance.yaml
+- argocd/operators/ibm-mq-operator.yaml
+- argocd/operators/ibm-platform-navigator.yaml
+- argocd/instances/ibm-platform-navigator-instance.yaml
+- argocd/operators/ibm-foundations.yaml
+- argocd/instances/ibm-foundational-services-instance.yaml
+- argocd/operators/ibm-automation-foundation-core-operator.yaml
+- argocd/operators/ibm-catalogs.yaml
+- argocd/instances/sealed-secrets.yaml
 
 ## Cloud Pak for Business Automation
 #- argocd/operators/ibm-cp4a-operator.yaml
