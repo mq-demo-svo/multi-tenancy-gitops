@@ -156,3 +156,4 @@ The reference architecture for this GitOps workflow can be found [here](https://
     ```
 5. Validate the recipe was deployed correctly following the `Validation` section in the recipe.
 
+
