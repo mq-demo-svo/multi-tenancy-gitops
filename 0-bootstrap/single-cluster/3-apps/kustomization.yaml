@@ -8,6 +8,8 @@ resources:
 - argocd/mq/dev.yaml
 - argocd/mq/stage.yaml
 #- argocd/mq/prod.yaml
+#- argocd/mq/tools.yaml # added following Hollis advice. However, target tools.yaml in multi-tenancy-gitops\0-bootstrap\single-cluster\3-apps\argocd\mq is also missing. So, gave up for the moment...
+
 
 #- argocd/apic/cicd.yaml
 #- argocd/apic/dev.yaml
